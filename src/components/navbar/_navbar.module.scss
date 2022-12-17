@@ -1,0 +1,28 @@
+.mainNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.childNav {
+    float: left;
+}
+
+.childNav .linkNav {
+    display: block;
+    padding: 1rem;
+}
+
+.logoNav {
+    @extend .childNav;
+    padding: 0.5rem;
+    filter: invert(10%);
+}
+
+@media only screen and (max-device-width: 480px) {
+    .mainNav {
+        display: flex;
+        flex-direction: column;
+    }
+}
