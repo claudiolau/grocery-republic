@@ -1,7 +1,5 @@
-import { useState } from 'react'
+import './App.scss'
 
-function App() {
-    return <div></div>
-}
+function App() {}
 
 export default App
