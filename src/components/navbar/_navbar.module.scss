@@ -18,6 +18,15 @@
     padding: 1rem;
 }
 
+.signNav {
+    float: right;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    color: white;
+}
+
 .logoNav {
     @extend .childNav;
     padding: 0.5rem;

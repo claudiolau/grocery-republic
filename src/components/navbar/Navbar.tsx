@@ -23,6 +23,8 @@ const Navbar: React.FC = () => {
                         </li>
                     )
                 })}
+                <div className={styles.signNav}>Sign Up</div>
+                <div className={styles.signNav}>Sign In</div>
             </ul>
         </>
     )
